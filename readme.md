@@ -6,6 +6,9 @@ Build the docker image:
 Run the image with memory and cpu constraints:  
 `docker run -p 80:3000 -m 50M --cpu-period=20000 --cpu-quota=10000 gregorus/docker-hw3:1.0`
 
+Login into dockerhub:  
+`docker login -u gregorus`
+
 Push the image to dockerhub:  
 `docker push gregorus/docker-hw3:1.0`
 
