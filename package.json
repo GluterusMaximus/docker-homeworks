@@ -9,8 +9,8 @@
     "start": "node index.js",
     "lint": "eslint --max-warnings=0 --ext .cjs --ext .jsx --ext .js --ext .ts . --ignore-path .gitignore --no-error-on-unmatched-pattern",
     "lint:fix": "eslint --ext .cjs --ext .jsx --ext .js --ext .ts . --ignore-path .gitignore --fix --no-error-on-unmatched-pattern",
-    "fmt": "prettier --ignore-path .gitignore -c \"**/*.js\" \"**/*.cjs\" \"**/*.jsx\" \"**/*.ts\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" --no-error-on-unmatched-pattern",
-    "fmt:fix": " prettier --ignore-path .gitignore --write \"**/*.js\" \"**/*.cjs\" \"**/*.jsx\" \"**/*.ts\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" --no-error-on-unmatched-pattern"
+    "fmt": "prettier --ignore-path .gitignore -c \"**/*.js\" \"**/*.cjs\" \"**/*.jsx\" \"**/*.ts\" \"**/*.json\" \"**/*.md\" --no-error-on-unmatched-pattern",
+    "fmt:fix": " prettier --ignore-path .gitignore --write \"**/*.js\" \"**/*.cjs\" \"**/*.jsx\" \"**/*.ts\" \"**/*.json\" \"**/*.md\" --no-error-on-unmatched-pattern"
   },
   "repository": {
     "type": "git",
