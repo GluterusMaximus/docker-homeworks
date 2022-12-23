@@ -17,3 +17,9 @@ spec:
         image: gregorus/hw-4:latest
         ports:
         - containerPort: 3000
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 3
+          periodSeconds: 3
